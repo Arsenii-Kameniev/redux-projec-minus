@@ -12,6 +12,7 @@ import { OrderStatus } from './Pages/OrderStatusMenu/OrderStatus';
 import { Category } from './Pages/CategoryMenu/Category';
 import { WorkPlace } from './Pages/WorkPlace/WorkPlace';
 import { LoginPlace } from './Pages/LoginPlace/LoginPlace';
+import { AllProducts } from './app/AllProductsMenu/AllProducts';
 
 function App() {
   return (
@@ -27,6 +28,7 @@ function App() {
           <Route path='/order' element={<Order />}></Route>
           <Route path='/orderStat' element={<OrderStatus />}></Route>
           <Route path='/category' element={<Category />}></Route>
+          <Route path='/allProducts' element={<AllProducts />}></Route>
         </Routes>
       </BrowserRouter>
     </>

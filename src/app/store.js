@@ -10,6 +10,7 @@ import orderReducer from '../Pages/OrderMenu/orderSlice';
 import orderStatusReducer from '../Pages/OrderStatusMenu/orderStatusSlice';
 import categoryReducer from '../Pages/CategoryMenu/categorySlice';
 import workPlaceReducer from '../Pages/WorkPlace/workPlaceSlice';
+import allProductsReducer from './AllProductsMenu/allProductsSlice';
 
 export const store = configureStore({
   reducer: {
@@ -21,6 +22,7 @@ export const store = configureStore({
     order: orderReducer,
     orderStatus: orderStatusReducer,
     category: categoryReducer,
-    workPlace: workPlaceReducer
+    workPlace: workPlaceReducer,
+    allProducts: allProductsReducer,
   },
 });

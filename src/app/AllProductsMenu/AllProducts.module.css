@@ -1,0 +1,50 @@
+.maxCenter{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: max-content;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(20, 20, 30);
+    color: white;
+}
+.center{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: max-content;
+    background-color: rgb(42, 44, 56);
+    width: max-content;
+}
+.inputColor{
+    background-color: rgb(118, 131, 146);
+}
+::placeholder{
+    color: white;
+}
+.buttonType1{
+    border: solid !important;
+    border-width: 1px !important;
+    width: 135px !important;
+    margin: 2px !important;
+    background-color: rgb(118, 131, 146) !important;
+}
+.Menu{
+    margin: 20px;
+    background-color: rgb(118, 131, 146) !important;
+}
+.productCard{
+    display: flex;
+    flex-direction: column;
+    width: max-content;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(29, 30, 36);
+    color: white;
+    border-color: white;
+    border-radius: 10px;
+    border: solid;
+    margin: 5px;
+    padding: 5px;
+}

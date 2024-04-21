@@ -132,6 +132,11 @@ export function WorkPlace() {
                                     <ul>
                                         <li onClick={
                                             () => {
+                                                Navigate(`/allProducts`);
+                                            }
+                                        }>All Products</li>
+                                        <li onClick={
+                                            () => {
                                                 Navigate(`/reg`);
                                             }
                                         }>Registrate</li>
