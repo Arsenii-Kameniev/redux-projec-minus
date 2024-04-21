@@ -1,0 +1,182 @@
+:root{
+    --bs-accordion-btn-bg:rgb(70, 70, 70) !important;
+    --bs-body-bg:rgb(70, 70, 70) !important;
+    --bs-body-color:white !important;
+    --bs-border-color: rgb(41, 41, 41) !important;
+    --bs-primary-bg-subtle: rgb(41, 41, 41) !important;
+    --bs-primary-text-emphasis: none !important;
+}
+
+.main{
+    background-color: rgb(20, 20, 30);
+    padding: 20px 20px 0px 20px;
+}
+.smallDiv{
+    width: 20%;
+}
+.bigDiv{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+}
+.column{
+    display: flex;
+    flex-direction: column;
+}
+.row{
+    display: flex;
+    flex-direction: row;
+}
+.column1{
+    display: flex;
+    flex-direction: column;
+    margin: 15px;
+}
+.column2{
+    display: flex;
+    flex-direction: column;
+    height: 10px;
+}
+.inputType1{
+    width: 1500px;
+    background-color: rgb(70, 70, 70) !important;
+}
+::placeholder{
+    color: white;
+}
+.smallBlocky{
+    display: flex;
+    width: 30px;
+    height: 30px;
+    background-color: darkgrey;
+}
+.smallDarkBlocky{
+    display: flex;
+    width: 30px;
+    height: 30px;
+    background-color: black;
+}
+.NormRectangle1{
+    display: flex;
+    flex-direction: column;
+    width: 750px;
+    height: 400px;
+    color: rgb(118, 131, 146);
+    background-color: rgb(42, 44, 56);
+    padding: 25px;
+}
+.NormRectangle2{
+    display: flex;
+    flex-direction: column;
+    width: 750px;
+    height: 400px;
+    color: rgb(118, 131, 146);
+    background-color: rgb(42, 44, 56);
+    padding: 25px;
+}
+.NormRectangle3{
+    display: flex;
+    flex-direction: row;
+    width: 750px;
+    color: rgb(118, 131, 146);
+    background-color: rgb(42, 44, 56);
+    padding: 25px;
+}
+.rowPer{
+    display: flex;
+    flex-direction: row;
+    width: 400px;
+    height: 6px;
+    background-color: black;
+}
+.PerPink{
+    width: 75%;
+    height: 6px;
+    background-color: purple;
+}
+.PerGrey{
+    width: 25%;
+    height: 6px;
+}
+.rowCenter{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.noMargin{
+    margin: 0px;
+}
+.Days{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(83, 86, 236);
+    color: rgb(105, 108, 255);
+}
+.specialRow{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+}
+.specialColumn{
+    display: flex;
+    width: 125px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: max-content;
+}
+.specialInput{
+    display: flex;
+    width: 125px;
+    background-color: gray;
+    color: black;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: max-content;
+}
+.show{
+    display: flex;
+}
+.hide{
+    display: none;
+}
+.icon{
+    display: flex;
+    width: 24px;
+    height: 24px;
+    justify-self: center;
+    color: rgb(118, 131, 146);
+}
+.showButton{
+    display: flex;
+    width: 125px;
+    background-color: gray;
+    color: black;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: max-content;
+}
+.hideButton{
+    display: none;
+    width: 125px;
+    background-color: gray;
+    color: black;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: max-content;
+}
+.showSave{
+    display: flex;
+    background-color: gray;
+}
+.hideSave{
+    display: none;
+    background-color: gray;
+}

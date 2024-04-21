@@ -1,0 +1,9 @@
+.Menu{
+    margin: 20px;
+}
+.buttonType1{
+    border: solid !important;
+    border-width: 1px !important;
+    width: 135px !important;
+    margin: 2px !important;
+}

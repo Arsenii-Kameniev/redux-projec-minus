@@ -1,0 +1,36 @@
+.maxCenter{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: max-content;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(20, 20, 30);
+    color: white;
+}
+.center{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: max-content;
+    background-color: rgb(42, 44, 56);
+    width: 300px;
+}
+.buttonType1{
+    border: solid !important;
+    border-width: 1px !important;
+    width: 135px !important;
+    margin: 2px !important;
+    background-color: rgb(118, 131, 146) !important;
+}
+.Menu{
+    margin: 20px;
+    background-color: rgb(118, 131, 146) !important;
+}
+.inputColor{
+    background-color: rgb(118, 131, 146);
+}
+::placeholder{
+    color: white;
+}
